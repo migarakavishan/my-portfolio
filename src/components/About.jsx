@@ -2,7 +2,7 @@ import React from "react";
 import { MdDownload } from "react-icons/md";
 
 const About = () => {
-  const fileUrl = "./assets/1.pdf";
+  const fileUrl = './assets/1.pdf';
   return (
     <div
       name="about"
@@ -42,14 +42,15 @@ const About = () => {
         </p>
 
         <div className="flex justify-center py-8">
-          <a href={fileUrl} download>
-            <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
-              Download CV
-              <span>
+        <a href={fileUrl} download>
+        <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
+            Download CV
+            <span>
                 <MdDownload size={25} className="ml-1" />
               </span>
-            </button>
-          </a>
+          </button>
+      </a>
+          
         </div>
       </div>
     </div>
