@@ -7,7 +7,7 @@ module.exports = {
     extend: {},
     fontFamily:{
     signature: ["'Norican', cursive"],
-    }
+    },
   },
   plugins: [],
 }
