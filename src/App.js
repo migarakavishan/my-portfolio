@@ -2,6 +2,7 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
+import { Qualification } from "./components/Qualification";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Home />
       <About />
       <Experience />
+      <Qualification />
     </div>
   );
 }

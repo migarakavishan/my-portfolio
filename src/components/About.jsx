@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full bg-gradient-to-b h-auto from-gray-800 to-black text-white"
+      className="w-full bg-gradient-to-b h-screen from-gray-800 to-black text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -45,8 +45,8 @@ const About = () => {
           <a href={fileUrl} download>
             <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
               Resume
-              <span>
-                <MdDownload size={25} className="ml-2" />
+              <span className="group-hover:animate-bounce">
+                <MdDownload size={25} className="ml-2 " />
               </span>
             </button>
           </a>
