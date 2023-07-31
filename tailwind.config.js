@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily:{
+    signature: ["'Norican', cursive"],
+    },
   },
   plugins: [],
 }
