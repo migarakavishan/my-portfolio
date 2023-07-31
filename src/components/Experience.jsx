@@ -79,9 +79,9 @@ const Experience = () => {
           </p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-14 text-center py-8 px-12 sm:px-10">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-14 text-center py-8 px-10 sm:px-10">
           <div className="shadow-xl hover:scale-105 duration-500 py-2 rounded-lg">
-            <img src={figmaimage} alt="" className=" h-40 mx-auto" />
+            <img src={figmaimage} alt="" className="w-24 mx-auto" />
             <p className="text-gray-300 mt-4">Figma</p>
           </div>
 
