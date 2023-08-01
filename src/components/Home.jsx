@@ -35,11 +35,11 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="mx-10 ">
+        <div className="mx-5 ">
           <img
             src={ProfileImage}
             alt="my profile"
-            className="rounded-2xl h-80 mx-auto md:w-full max-w-md " 
+            className="rounded-2xl h-80 mx-auto max-w-md " 
           />
         </div>
       </div>
