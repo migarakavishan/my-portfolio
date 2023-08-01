@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black to-gray-800 via-black"
+      className="h-screen w-full bg-gradient-to-b from-black to-gray-800 via-black dark:from-gray-100 dark:to-gray-300 dark:via-white"
     >
       <div className="max-w-screen-lg mx-auto my-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-80">
@@ -22,7 +22,7 @@ const Home = () => {
 
           <div>
             <Link
-              to="contactMe"
+              to="contact"
               smooth
               duration={500}
               className="group text-white font-semibold w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-700 to-blue-900 cursor-pointer"
