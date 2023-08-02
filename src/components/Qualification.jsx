@@ -19,7 +19,7 @@ export const Qualification = () => {
                 <p className="text-sm text-gray-400">2021 - completed at 2024</p>
               </div>
               <div className="mb-6 ml-4 mt-2">
-                <h4 className="mb-1.5 text-xl font-semibold">Computer Science and Software Engoneer</h4>
+                <h4 className="mb-1.5 text-xl font-semibold">Computer Science and Software Engineer</h4>
                 <p className="mb-3 text-gray-400">University of Bedfordshere</p>
               </div>
             </li>
