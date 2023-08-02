@@ -2,6 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFacebook } from "react-icons/bs";
+import { Link } from "react-scroll";
 
 export const Footer = () => {
   const links =[
@@ -34,6 +35,21 @@ export const Footer = () => {
       href: "https://www.facebook.com/migara.kavishan",
     },
   ]
+
+  const link =[
+    {
+      id:1,
+      link:"about"
+    },
+    {
+      id:2,
+      link:"portfolio"
+    },
+    {
+      id:1,
+      link:"contact"
+    },
+  ]
   return (
     <div className="w-full h-56 px-10 py-10 text-white bg-black">
       <div className="flex justify-between">
@@ -44,15 +60,10 @@ export const Footer = () => {
           </li>
         </ul>
         <ul className="md:flex">
-          <li className="px-4 cursor-pointer capitalize font-medium text-gray-300 hover:scale-105">
-            About
-          </li>
-          <li className="px-4 cursor-pointer capitalize font-medium text-gray-300 hover:scale-105">
-            Portfolio
-          </li>
-          <li className="px-4 cursor-pointer capitalize font-medium text-gray-300 hover:scale-105">
-            About
-          </li>
+        {link.map(({id, link}) => (<li key={id} className="px-4 cursor-pointer capitalize font-medium text-gray-300 hover:scale-105">
+            <Link to={link} smooth duration={500}>{link}</Link>
+          </li>))}
+          
         </ul>
       </div>
 
