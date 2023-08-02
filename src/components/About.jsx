@@ -9,7 +9,7 @@ const About = () => {
       className="w-full bg-gradient-to-b h-screen from-gray-800 to-black text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
+        <div className="pb-8 py-56">
           <p className="text-6xl font-bold flex justify-center">About</p>
         </div>
         <p className="text-2xl mt-20 text-gray-300">

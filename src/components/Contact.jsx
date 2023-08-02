@@ -4,7 +4,7 @@ export const Contact = () => {
   return (
     <div
       name="contact"
-      className="bg-gradient-to-t from-black to-gray-800 w-full text-white h-full"
+      className="bg-gradient-to-t from-black to-gray-800 w-full text-white h-full py-10"
     >
       <div className="max-w-screen-lg mx-auto text-white p-4">
         <div className="pb-8">

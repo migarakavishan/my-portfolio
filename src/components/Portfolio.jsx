@@ -6,7 +6,7 @@ import web4 from "../assets/project4.png";
 
 const Portfolio = () => {
   return (
-    <div name="portfolio" className='bg-gradient-to-b from-black to-gray-800 w-full text-white h-full'>
+    <div name="portfolio" className='bg-gradient-to-b from-black to-gray-800 w-full text-white h-full py-20'>
         <div className=" max-w-screen-lg mx-auto text-white p-4 ">
             <div>
                 <p className='text-6xl font-bold flex justify-center'>Portfolio</p>
