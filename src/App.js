@@ -7,6 +7,7 @@ import NavBar from "./components/NavBar";
 import Portfolio from "./components/Portfolio";
 import { Qualification } from "./components/Qualification";
 
+
 function App() {
   return (
     <div>
