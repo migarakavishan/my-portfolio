@@ -2,7 +2,7 @@ import React from "react";
 import { MdDownload } from "react-icons/md";
 
 const About = () => {
-  const fileUrl = "./assets/1.pdf";
+  const fileUrl = "./assets/Resume.pdf";
   return (
     <div
       name="about"
