@@ -1,8 +1,8 @@
 import React from "react";
-import { MdDownload } from "https://drive.google.com/file/d/1X5xoc6DgDbg-M6b7A_qyy74FSkqLagZe/view?usp=sharing";
+import { MdDownload } from "react-icons/md";
 
 const About = () => {
-  const fileUrl = "./assets/Resume.pdf";
+  const fileUrl = "https://drive.google.com/file/d/1X5xoc6DgDbg-M6b7A_qyy74FSkqLagZe/view?usp=sharing";
   return (
     <div
       name="about"
