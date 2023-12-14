@@ -1,5 +1,5 @@
 import React from "react";
-import { MdDownload } from "react-icons/md";
+import { MdDownload } from "https://drive.google.com/file/d/1X5xoc6DgDbg-M6b7A_qyy74FSkqLagZe/view?usp=sharing";
 
 const About = () => {
   const fileUrl = "./assets/Resume.pdf";
