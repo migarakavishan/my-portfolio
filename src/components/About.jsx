@@ -42,7 +42,7 @@ const About = () => {
         </p>
 
         <div className="flex justify-center py-8">
-          <a href={fileUrl} download>
+          <a href={fileUrl}>
             <button className="group text-white font-semibold w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-700 to-blue-900 cursor-pointer">
               Resume
               <span className="group-hover:animate-bounce">
