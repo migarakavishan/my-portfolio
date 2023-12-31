@@ -1,5 +1,7 @@
 import React from "react";
 import { MdDownload } from "react-icons/md";
+import {motion} from "framer-motion";
+import {fadeIn} from '../variants';
 
 const About = () => {
   const fileUrl = "https://drive.google.com/file/d/12Fml_1CJ6tYdKBH5tC9b6STLxzrssYD7/view?usp=sharing";
@@ -9,9 +11,21 @@ const About = () => {
       className="w-full bg-gradient-to-b h-screen from-gray-800 to-black text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8 py-80">
+        <motion.div 
+        variants={fadeIn("down",0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{once:false, amount: 0.7}}
+        className="pb-8 py-80">
           <p className="text-6xl font-bold flex justify-center">About</p>
-        </div>
+        </motion.div>
+
+        <motion.div
+        variants={fadeIn("up",0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{once:false, amount: 0.7}}
+        >
         <p className="text-2xl mt-20 text-gray-300">
           👋 Hello! Welcome to my portfolio!
         </p>
@@ -51,6 +65,7 @@ const About = () => {
             </button>
           </a>
         </div>
+        </motion.div>
       </div>
     </div>
   );
