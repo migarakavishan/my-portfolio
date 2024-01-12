@@ -4,20 +4,14 @@ import web2 from "../assets/project2.png";
 import web3 from "../assets/project3.png";
 import web4 from "../assets/project4.png";
 
-import { motion } from "framer-motion";
-import { fadeIn } from "../variants";
-
 const Portfolio = () => {
   return (
     <div
       name="portfolio"
       className="bg-gradient-to-b from-black to-gray-800 w-full text-white h-full py-20"
     >
-      <motion.div
-      variants={fadeIn("down", 0.1)}
-          initial="hidden"
-          whileInView={"show"}
-          viewport={{ once: false, amount: 0.7 }}
+      <div
+      
        className=" max-w-screen-lg mx-auto text-white p-4 ">
         <div>
           <p className="text-6xl font-bold flex justify-center">Portfolio</p>
@@ -60,7 +54,7 @@ const Portfolio = () => {
             />
           </div>
         </div>
-      </motion.div>
+      </div>
     </div>
   );
 };

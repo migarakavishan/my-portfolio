@@ -13,9 +13,6 @@ import psimage from "../assets/psImage.png";
 import figmaimage from "../assets/figmaImage.png";
 import xdimage from "../assets/xdImage.png";
 
-import { motion } from "framer-motion";
-import { fadeIn } from "../variants";
-
 const Experience = () => {
   return (
     <div
@@ -24,25 +21,15 @@ const Experience = () => {
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full text-white">
         <div className="">
-          <motion.div
-            variants={fadeIn("down", 0.2)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: false, amount: 0.7 }}
-          >
+          <div>
             <p className="text-6xl font-bold flex justify-center">Experience</p>
-          </motion.div>
+          </div>
           <p className="text-2xl mt-20 text-gray-400">
             There are the technologies I've worked with
           </p>
         </div>
 
-        <motion.div 
-        variants={fadeIn("up",0.2)}
-          initial="hidden"
-          whileInView={"show"}
-          viewport={{once:false, amount: 0.7}}
-        className="w-full grid grid-cols-2 sm:grid-cols-4 gap-14 text-center py-8 px-12 sm:px-10">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-14 text-center py-8 px-12 sm:px-10">
           <div className="shadow-xl hover:scale-105 duration-500 py-2 rounded-lg">
             <img src={htmlimage} alt="" className="w-40 mx-auto" />
             <p className="text-gray-300 mt-4">HTML</p>
@@ -82,7 +69,7 @@ const Experience = () => {
             <img src={githubimage} alt="" className="w-40 mx-auto" />
             <p className="text-gray-300 mt-4">Github</p>
           </div>
-        </motion.div>
+        </div>
 
         <div>
           <p className="text-2xl mt-20 text-gray-400">
@@ -90,12 +77,7 @@ const Experience = () => {
           </p>
         </div>
 
-        <motion.div
-         variants={fadeIn("up",0.4)}
-          initial="hidden"
-          whileInView={"show"}
-          viewport={{once:false, amount: 0.7}}
-         className="w-full grid grid-cols-2 sm:grid-cols-4 gap-14 text-center py-8 px-10 sm:px-10">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-14 text-center py-8 px-10 sm:px-10">
           <div className="shadow-xl hover:scale-105 duration-500 py-2 rounded-lg">
             <img src={figmaimage} alt="" className="w-24 mx-auto" />
             <p className="text-gray-300 mt-4">Figma</p>
@@ -115,7 +97,7 @@ const Experience = () => {
             <img src={xdimage} alt="" className="w-40 mx-auto" />
             <p className="text-gray-300 mt-4">Xd</p>
           </div>
-        </motion.div>
+        </div>
       </div>
     </div>
   );
