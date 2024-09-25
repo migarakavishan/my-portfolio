@@ -18,15 +18,26 @@ export const Qualification = () => {
             <li>
               <div className="flex-start flex items-center pt-3">
                 <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500"></div>
-                <p className="text-sm text-gray-400">
-                  2021 - completed at 2024
-                </p>
+                <p className="text-sm text-gray-400">2021 - 2023 (Completed)</p>
               </div>
               <div className="mb-6 ml-4 mt-2">
                 <h4 className="mb-1.5 text-xl font-semibold">
-                  Computer Science and Software Engineer
+                  Higher Diploma in IT
                 </h4>
-                <p className="mb-3 text-gray-400">University of Bedfordshere</p>
+                <p className="mb-3 text-gray-400">SLIIT CITY UNI</p>
+              </div>
+            </li>
+            <li>
+              <div className="flex-start flex items-center pt-3">
+                <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500"></div>
+                <p className="text-sm text-gray-400">2024 (Completed)</p>
+              </div>
+              <div className="mb-6 ml-4 mt-2">
+                <h4 className="mb-1.5 text-xl font-semibold">
+                  B.Sc. (Hons) Computer Science and Software Engineering –
+                  University of Bedfordshire
+                </h4>
+                <p className="mb-3 text-gray-400">SLIIT CITY UNI</p>
               </div>
             </li>
           </ol>

@@ -1,16 +1,19 @@
 import React from "react";
-import htmlimage from "../assets/html.png";
-import cssimage from "../assets/cssimage.png";
-import jsimage from "../assets/jsImage.png";
-import tailwindimage from "../assets/tailwindImage.png";
 import bootstrapimage from "../assets/bootstrapImage.png";
-import reactimage from "../assets/reactImage.png";
+import cssimage from "../assets/cssimage.png";
 import githubimage from "../assets/githubImage.png";
+import htmlimage from "../assets/html.png";
+import jsimage from "../assets/jsImage.png";
 import phpimage from "../assets/phpImage.png";
+import reactimage from "../assets/reactImage.png";
+import tailwindimage from "../assets/tailwindImage.png";
 
 import aiimage from "../assets/aiImage.png";
-import psimage from "../assets/psImage.png";
+import dartImage from "../assets/dartImage.png";
 import figmaimage from "../assets/figmaImage.png";
+import firebaseImage from "../assets/firebaseImage.webp";
+import flutterImage from "../assets/flutterImage.png";
+import psimage from "../assets/psImage.png";
 import xdimage from "../assets/xdImage.png";
 
 const Experience = () => {
@@ -30,6 +33,14 @@ const Experience = () => {
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-14 text-center py-8 px-12 sm:px-10">
+          <div className="shadow-xl hover:scale-105 duration-500 py-2 rounded-lg">
+            <img src={flutterImage} alt="" className="w-40 mx-auto" />
+            <p className="text-gray-300 mt-4">Flutter</p>
+          </div>
+          <div className="shadow-xl hover:scale-105 duration-500 py-2 rounded-lg">
+            <img src={dartImage} alt="" className="w-40 mx-auto" />
+            <p className="text-gray-300 mt-4">Dart</p>
+          </div>
           <div className="shadow-xl hover:scale-105 duration-500 py-2 rounded-lg">
             <img src={htmlimage} alt="" className="w-40 mx-auto" />
             <p className="text-gray-300 mt-4">HTML</p>
@@ -62,12 +73,16 @@ const Experience = () => {
 
           <div className="shadow-xl hover:scale-105 duration-500 py-2 rounded-lg">
             <img src={phpimage} alt="" className="w-40 mx-auto " />
-            <p className="text-gray-300 mt-10 ">php</p>
+            <p className="text-gray-300 mt-10 ">Php</p>
           </div>
 
           <div className="shadow-xl hover:scale-105 duration-500 py-2 rounded-lg">
             <img src={githubimage} alt="" className="w-40 mx-auto" />
             <p className="text-gray-300 mt-4">Github</p>
+          </div>
+          <div className="shadow-xl hover:scale-105 duration-500 py-2 rounded-lg">
+            <img src={firebaseImage} alt="" className="w-40 mx-auto" />
+            <p className="text-gray-300 mt-4">Firebase</p>
           </div>
         </div>
 
